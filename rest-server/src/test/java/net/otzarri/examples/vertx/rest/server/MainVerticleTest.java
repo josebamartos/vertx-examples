@@ -1,9 +1,9 @@
-package net.otzarri.examples.vertx.rest;
+package net.otzarri.examples.vertx.rest.server;
 
 import io.vertx.core.Vertx;
 import io.vertx.ext.unit.TestContext;
 import io.vertx.ext.unit.junit.VertxUnitRunner;
-import net.otzarri.examples.vertx.rest.MainVerticle;
+import net.otzarri.examples.vertx.rest.server.MainVerticle;
 
 import org.junit.After;
 import org.junit.Before;

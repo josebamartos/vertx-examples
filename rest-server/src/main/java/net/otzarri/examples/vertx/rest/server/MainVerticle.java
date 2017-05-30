@@ -1,4 +1,4 @@
-package net.otzarri.examples.vertx.rest;
+package net.otzarri.examples.vertx.rest.server;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpHeaders;
