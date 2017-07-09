@@ -10,6 +10,6 @@ public class MainVerticle extends AbstractVerticle {
 		.requestHandler(req -> {
 			req.response().end("Hello from " + Thread.currentThread().getName());
 		})
-		.listen(8080);
+		.listen(config().getInteger("http.port", 8080));
 		}
 	}
