@@ -25,7 +25,7 @@ public class MainVerticle extends AbstractVerticle {
 		WebClient client = WebClient.create(vertx);
 		
 		HttpRequest<JsonObject> request = client
-		.get(8080, "localhost","/Vert.x client")
+		.get(8080, "localhost","/Vert.x%20client")
 		.as(BodyCodec.jsonObject());
 
 		request.send(ar -> {
